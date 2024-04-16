@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 export default function Header() {
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="black" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="/">Practice Vite</Navbar.Brand>
           <Nav className="me-auto">
@@ -17,4 +17,3 @@ export default function Header() {
     </>
   )
 }
-

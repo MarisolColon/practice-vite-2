@@ -1,18 +1,28 @@
 import Row from "react-bootstrap/Row"
 
+import styled from "styled-components"
+
+const StyledAbout = styled.div`
+    
+
+    & .carousel-inner {
+        position: sticky;
+    }
+`
+
 const About = () => {
     return (
-
+        <StyledAbout>
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/17/17/11/sea-bridge-1748162_1280.jpg" class="h-100 d-inline-block w-100" alt="..." />
+                        <img src="https://cdn.pixabay.com/photo/2019/08/26/12/32/feather-4431599_1280.jpg" class="h-100 d-inline-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://cdn.pixabay.com/photo/2019/07/21/13/42/nature-conservation-4352793_1280.jpg" class="d-block w-100" alt="..." />
+                        <img src="https://cdn.pixabay.com/photo/2020/04/19/18/53/portrait-5065016_1280.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg" class="d-block w-100" alt="..." />
+                        <img src="https://cdn.pixabay.com/photo/2023/08/19/13/42/water-8200502_1280.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -24,7 +34,7 @@ const About = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-     
+        </StyledAbout>
     )
 }
 
